@@ -52,7 +52,7 @@ a{
 
 /*heaser part design*/
 .dashboard{
-    background-image: url("./assets/banner.jpg");
+    background-image:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("./assets/banner.jpg");
     background-size: cover;
     min-height: 100vh;
     width: 100%;
