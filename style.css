@@ -65,4 +65,49 @@ a{
 .register-button{
     padding: 16px 30px;
 }
+.speakers{
+    height: 100vh;
+}
+.speakers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 200px;
+}
+.a{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.b{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+}
+
+.info{
+    padding: 20px;
+    text-align: start;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.speakers-picture{
+    height: fit-content;
+    width: fit-content;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+.name{
+    margin: 10px 0px;
+}
+.skill{
+    color: #2563EB;
+}
+.detail{
+    color: #575757;
+}
+
 
