@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DEVCONF</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
     <!--navigation part start here-->
@@ -52,25 +55,25 @@
             <section class="speakers-info">
                 <img class="speakers-picture" src="./assets/demis.png" alt="">
                 <section class="info">
-                    <p class="skill">AI / ML</p>
-                    <h2 class="name">Andrej Karpathy</h2>
-                    <p class="detail">Pretraining team, Anthropic</p>
+                    <p class="skill">Cloud & Dev Ops</p>
+                    <h2 class="name">Demis Hassabis</h2>
+                    <p class="detail">Co-Founder and CEO, Google DeepMind</p>
                 </section>
             </section>
             <section class="speakers-info">
                 <img class="speakers-picture" src="./assets/gary.png" alt="">
                 <section class="info">
-                    <p class="skill">AI / ML</p>
-                    <h2 class="name">Andrej Karpathy</h2>
-                    <p class="detail">Pretraining team, Anthropic</p>
+                    <p class="skill">Frontend</p>
+                    <h2 class="name">Gary Marcus</h2>
+                    <p class="detail">Staff Engineer, Vercel</p>
                 </section>
             </section>
             <section class="speakers-info">
                 <img class="speakers-picture" src="./assets/mustafa.png" alt="">
                 <section class="info">
-                    <p class="skill">AI / ML</p>
-                    <h2 class="name">Andrej Karpathy</h2>
-                    <p class="detail">Pretraining team, Anthropic</p>
+                    <p class="skill">Security</p>
+                    <h2 class="name">Mustafa Suleyman</h2>
+                    <p class="detail">CEO of Microsoft AI</p>
                 </section>
             </section>
         </section>
@@ -137,5 +140,86 @@
             </div>
         </section>
     </section>
+
+
+
+
+
+
+    <section class="premium-registration">
+        <div class="registration-grid">
+            
+            <div class="info-card">
+                <span class="badge">Limited Seats</span>
+                <h3 class="glow-text">Don't Miss the Developer Event of the Year</h3>
+                <p>Register today to lock in early-bird rates, get access to exclusive workshops, and network with industry leaders.</p>
+                
+                <div class="perks-list">
+                    <div class="perk-item">
+                        <div class="perk-dot"></div>
+                        <span>48+ Technical Sessions</span>
+                    </div>
+                    <div class="perk-item">
+                        <div class="perk-dot"></div>
+                        <span>1-on-1 Mentorship Passes</span>
+                    </div>
+                    <div class="perk-item">
+                        <div class="perk-dot"></div>
+                        <span>Official DEVCONF 2026 Swag</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-card">
+                <form class="interactive-form" onsubmit="event.preventDefault(); alert('Registration Success!');">
+                    
+                    <div class="input-group">
+                        <label>First Name</label>
+                        <input type="text" placeholder="Andrej" required>
+                    </div>
+                    <div class="input-group">
+                        <label>Last Name</label>
+                        <input type="text" placeholder="Karpathy" required>
+                    </div>
+                    
+                    <div class="input-group span-two">
+                        <label>Email Address</label>
+                        <input type="email" placeholder="andrej@example.com" required>
+                    </div>
+                    
+                    <div class="input-group span-two">
+                        <label>Select Ticket Type</label>
+                        <select>
+                            <option value="standard">Standard Pass ($399)</option>
+                            <option value="pro" selected>Pro Pass ($749)</option>
+                            <option value="team">Team Pass ($5,999)</option>
+                        </select>
+                    </div>
+
+                    <div class="input-group span-two">
+                        <button type="submit" class="common-button premium-submit-btn">
+                            Complete Registration <span>&rarr;</span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    
+
+
+
 </body>
+<footer>
+    <section class="foot_">
+        <p>&copy;2026 DevConf. All rights reserved.</p>
+    </section>
+    <section class="foot_"></section>
+    <section class="foot_">
+        <p class="mn">Privacy Policy</p>
+        <p class="mn">Terms of Service</p>
+    </section>
+</footer>
 </html>
