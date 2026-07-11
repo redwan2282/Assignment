@@ -50,7 +50,7 @@ a{
     color: #575757;
 }
 
-/*heaser part design*/
+/*header part design*/
 .dashboard{
     background-image:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("./assets/banner.jpg");
     background-size: cover;
