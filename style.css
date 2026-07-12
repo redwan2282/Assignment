@@ -214,8 +214,8 @@ footer>p{
 footer>section{
     display: flex;
     justify-content: space-between;
-    max-width: 1400px;
-    margin: auto;
+    max-width: 1200px;
+    margin: 10px auto;
 }
 .foot_{
     display: flex;
